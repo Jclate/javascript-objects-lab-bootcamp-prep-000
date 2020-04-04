@@ -23,8 +23,7 @@ return obj
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  const obj
-  obj = {[key]: value}
+  obj = Object.assign{{}, [key]: value}
   return obj
 }
 
