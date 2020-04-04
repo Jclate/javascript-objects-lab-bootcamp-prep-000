@@ -3,7 +3,7 @@ function updateObjectWithKeyAndValue(key, value) {
   console.log(key)
   var value = value
   console.log (value)
-  var obj = Object.assign({}, { prop: 1 }, { [key]: 'value' })
+  var obj = Object.assign({}, { prop: 1 }, { [key]: value })
   return obj
 
 }
