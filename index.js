@@ -16,7 +16,9 @@ return obj
 }
 
 function deleteFromObjectByKey(object, key) {
-
+var obj
+obj = obj.key
+return obj
 }
 
 function estructivelyDeleteFromObjectByKey(object, key) {
