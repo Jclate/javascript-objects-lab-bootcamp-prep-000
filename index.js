@@ -1,14 +1,12 @@
-function updateObjectWithKeyAndValue(obj, key, value) {
-  var key = key
-  var value = value
-  var obj = obj
+function updateObjectWithKeyAndValue(object, key, value) {
+  var obj
   var newObj = {key: value}
-  obj = Object.assign({}, newObj)
+  obj = newObj.key
 console.log(obj)
   return obj
 
 }
-updateObjectWithKeyAndValue(obj, 'prop2', 2)
+//updateObjectWithKeyAndValue(obj, 'prop2', 2)
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 var obj = object
 obj.key = 'value'
