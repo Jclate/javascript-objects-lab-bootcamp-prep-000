@@ -17,7 +17,8 @@ return obj
 
 function deleteFromObjectByKey(object, key) {
 var obj
-obj = object.key
+var obj2 = object.key
+obj = object[key]
 return obj
 }
 
