@@ -24,7 +24,7 @@ return obj
 
 const obj = { prop: 1 }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  obj[key] = value
+  object[key] = value
   return obj
 }
 
