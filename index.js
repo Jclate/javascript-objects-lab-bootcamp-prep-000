@@ -1,4 +1,4 @@
-function updateObjectWithKeyAndValue(key, value) {
+function updateObjectWithKeyAndValue(object, key, value) {
   var key = key
   console.log(key)
   var value = value
