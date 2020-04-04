@@ -24,7 +24,7 @@ return obj
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   var obj
-  Object.assign({}, obj, {[key]: value})
+  Object.assign({}, {[key]: value})
   return obj
 }
 
