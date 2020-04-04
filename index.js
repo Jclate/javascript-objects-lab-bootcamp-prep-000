@@ -24,7 +24,7 @@ return obj
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   var obj = { prop: 1 }
-  obj[key] = value
+  obj[key] = {value}
   return obj
 }
 
