@@ -1,5 +1,6 @@
 function updateObjectWithKeyAndValue(object, key, value) {
-  var obj = Object.assign({}, { prop: 1 } {key; value})
+  const obj = { prop: 1 }
+  Object.assign({}, obj, {key; value})
   return obj
 
 }
